@@ -65,7 +65,19 @@ const Editor: React.FC = () => {
 
   return (
     <Box sx={{ minHeight: "100vh", padding: { xs: 2, md: 3 } }}>
-      <Typography variant="h4" gutterBottom align="center">
+      <Typography
+        variant="h4"
+        gutterBottom
+        align="center"
+        sx={{
+          fontSize: {
+            xs: "1.5rem",
+            sm: "2rem",
+            md: "3rem",
+          },
+          pb: 2,
+        }}
+      >
         Markdown Previewer
       </Typography>
 
