@@ -26,7 +26,7 @@ git clone https://github.com/shaiksha176/markdown-previewer-fullstack.git
 1.  Run `cd frontend` & Run `npm install` to install dependencies
 2.  Run `npm run dev` to start the react app
 3.  Open `http://localhost:5173` in your browser to view the app
-4.  Copy and paste markdown text into the editor to see the live preview
+4.  Either Copy and paste markdown text into the editor or type to see the live preview
 
 ### Steps to Run Server
 
