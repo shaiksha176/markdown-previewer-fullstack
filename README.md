@@ -11,7 +11,7 @@ A simple markdown previewer built with React & Node js (Express js & Web Sockets
 
 1.  Copy and paste markdown text into the editor
 2.  The preview will update in real-time as you type
-3.  Use the menu to switch between light and dark themes
+3.  Switch between light and dark themes
 
 ### Installation
 
