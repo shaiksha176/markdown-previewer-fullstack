@@ -18,7 +18,7 @@ A simple markdown previewer built with React & Node js (Express js & Web Sockets
 Clone the repository
 
 ```bash
-git clone 'wergtb'
+git clone https://github.com/shaiksha176/markdown-previewer-fullstack.git
 ```
 
 ### Steps to Run app on the browser
