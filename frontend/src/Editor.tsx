@@ -14,7 +14,7 @@ import { io, Socket } from "socket.io-client";
 const Editor: React.FC = () => {
   const [markdown, setMarkdown] = useState<string>("");
   const [htmlPreview, setHtmlPreview] = useState<string>("");
-  const [socket, setSocket] = useState<Socket | null>(null); // Type the state as Socket | null
+  const [socket, setSocket] = useState<Socket | null>(null);
   const theme = useTheme();
 
   useEffect(() => {

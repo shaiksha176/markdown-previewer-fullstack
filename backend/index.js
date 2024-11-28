@@ -8,7 +8,7 @@ const PORT = 5000;
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "*", // Allow all origins or specify a specific one
+    origin: "*",
     methods: ["GET", "POST"],
   },
 });
@@ -21,7 +21,7 @@ io.on("connection", (socket) => {
   // Listen for Markdown content
   socket.on("convertMarkdown", (markdown) => {
     try {
-      const html = marked(markdown); // Convert Markdown to HTML
+      const html = marked(markdown);
       // Emit the HTML back to the client
       socket.emit("htmlUpdate", html);
     } catch (error) {
@@ -49,7 +49,6 @@ app.post("/convert", (req, res) => {
   }
 });
 
-// Start the server
 server.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
